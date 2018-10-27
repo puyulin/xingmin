@@ -184,11 +184,11 @@
 				</div>
 			</div>
 	</div>
-	<div class="content" id="qimin" style="margin-top: 20px;">
+	<div class="content" id="qimin" style="margin-top: 20px;margin-bottom: 20px;">
 			<div class="tabbable">
 				<div class="tab-content" style="border: 3px solid #337ab7ed;">
 					<div class="tab-pane fade in active">
-						<form class="form-horizontal" role="form">
+						<form class="form-horizontal" role="form" method="post" action="${ctx}/names/queryNames">
 							<div class="form-group">
 								<label class="col-sm-3 control-label no-padding-right" for="form-field-1"> 姓</label>
 
@@ -242,6 +242,15 @@
 											<i class="fa fa-clock-o bigger-110"></i>
 										</span>
 									</div>
+								</div>
+							</div>
+							<div class="clearfix form-actions">
+								<div class="col-md-offset-3 col-md-9">
+									<button class="btn btn-info" type="submit">
+										<i class="ace-icon fa fa-check bigger-110"></i>
+										提交订单
+									</button>
+
 								</div>
 							</div>
 						</form>
